@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Gabarito:wght@500&family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
+    <!-- * -->
+    <title>Home Page</title>
+    <style>
+        body {
+            background-color: rgb(34, 34, 34);
+            font-family: 'Gabarito', sans-serif;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgb(194, 194, 194);
+            position: fixed;
+            top: 20px;
+            width: 100%;
+        }
+        .headLink {
+            padding-right: 20px;
+        }
+        .headerHover {
+            transition: 0.5s;
+        }
+        .headerHover:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: pointer;
+        }
+        section {
+            padding-top: 110px;
+            padding-left: 75px;
+            font-weight: 500;
+        }
+        .mainPhaseSection {
+            font-size: 70px;
+            word-spacing: -15px;
+            color: rgb(194, 194, 194);
+            cursor: default;
+        }
+        /* --------------------------------------- */
+        
+        .H {
+            animation: HAnimation 0.5s ease-in-out 1;
+            color: rgb(218, 218, 218);
+            transition: 0.2s;
+        }
+        @keyframes HAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .H:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .e {
+            animation: eAnimation 0.7s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes eAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .e:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .l {
+            animation: lAnimation 0.8s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes lAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .l:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .l2 {
+            animation: l2Animation 0.9s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes l2Animation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .l2:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .o {
+            animation: oAnimation 1s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes oAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .o:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .comma {
+            animation: commaAnimation 1.1s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes commaAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .comma:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .I {
+            animation: IAnimation 1.2s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes IAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .I:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .quote {
+            animation: quoteAnimation 1.3s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes quoteAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .quote:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .m {
+            animation: mAnimation 1.4s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes mAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .m:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .C {
+            animation: CAnimation 1.5s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes CAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .C:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .a {
+            animation: aAnimation 1.6s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes aAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .a:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .i {
+            animation: iAnimation 1.7s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes iAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .i:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .o2 {
+            animation: o2Animation 1.8s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes o2Animation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .o2:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .comma2 {
+            animation: comma2Animation 1.9s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes comma2Animation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .comma2:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .W {
+            animation: WAnimation 2s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes WAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .W:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .e2 {
+            animation: e2Animation 2.1s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes e2Animation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .e2:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .b {
+            animation: bAnimation 2.2s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes bAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .b:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .D {
+            animation: DAnimation 2.3s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes DAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        }
+        .D:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .e3 {
+            animation: e3Animation 2.4s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes e3Animation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .e3:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .v {
+            animation: vAnimation 2.5s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes vAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .v:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .e4 {
+            animation: e4Animation 2.6s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes e4Animation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .e4:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .l3 {
+            animation: lAnimation 2.7s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes lAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .l3:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .o3 {
+            animation: o3Animation 2.8s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes o3Animation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .o3:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .p {
+            animation: pAnimation 2.9s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes pAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .p:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .e5 {
+            animation: e5Animation 3s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes e5Animation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .e5:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .r {
+            animation: rAnimation 3.1s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes rAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .r:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        .dot {
+            animation: dotAnimation 3.2s ease-in-out 1;
+            color: rgb(218, 218, 218);
+                transition: 0.2s;
+        }
+        @keyframes dotAnimation {
+            0%{opacity: 0;}
+            99%{opacity: 0;}
+            100%{opacity: 100%;}
+        } 
+        .dot:hover {
+            color: rgb(238, 198, 0);
+            transition: 0.2s;
+            cursor: default;
+        }
+        /* --------------------------------------- */
+        .borderBottom {
+            background-color: rgb(194, 194, 194);
+            width: 550px;
+            height: 10px;
+            margin-top: 20px;
+            animation: borderBottomAnim 4s ease-in-out 1;
+            transition: 2s;
+        }
+        .borderBottom:hover {
+            background-color: rgb(238, 198, 0);
+            transition: 2s;
+        }
+        @keyframes borderBottomAnim {
+            0%{width: 0px; opacity: 0;}
+            50%{opacity: 0.5;}
+            100%{width: 550px;opacity: 1;}
+        }
+        .mainDiv {
+            padding-left: 75px;
+            padding-top: 90px;
+        }
+        .projects {
+            font-size: 30px;
+            color: rgb(194, 194, 194);
+            cursor: default;
+        }
+        /* -------------------------------------------------- */
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: arrowAnimation 1s ease-in-out infinite;
+        }
+        @keyframes arrowAnimation {
+            0%{margin-top:-10px;opacity:0;}
+            50%{opacity: 1;}
+            100%{margin-top: 5px; opacity: 0;}
+        }
+        .arrow1 {
+            background-color: rgb(194, 194, 194);
+            width: 4px;
+            height: 27px;
+        }
+        .arrow2 {
+            background-color: rgb(194, 194, 194);
+            width: 4px;
+            height: 17px;
+            margin-left: -9px;
+            margin-top: 23px;
+            position: fixed;
+            transform: rotate(-40deg);
+        }
+        .arrow3 {
+            background-color: rgb(194, 194, 194);
+            width: 4px;
+            height: 17px;
+            margin-left: 9px;
+            margin-top: 23px;
+            position: fixed;
+            transform: rotate(40deg);
+        }
+        .arrow:hover {
+            background-color: rgb(238, 198, 0);
+            cursor: default;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span class="headLink headerHover">HOME</span>
+        <span class="headLink headerHover">PROJECTS</span>
+        <span class="headLink headerHover">ABOUT ME</span>
+    </header>
+    <section>
+        <div class="mainPhaseSection">
+            <span class="H letter">H</span>
+            <span class="e letter">e</span>
+            <span class="l letter">l</span>
+            <span class="l2 letter">l</span>
+            <span class="o letter">o</span>
+            <span class="comma letter">,</span> <br>
+            <span class="I letter">I</span>
+            <span class="quote letter">'</span>
+            <span class="m letter" style="padding-right: 30px;">m</span>
+            <span class="C letter">C</span>
+            <span class="a letter">a</span>
+            <span class="i letter">i</span>
+            <span class="o2 letter">o</span> 
+            <span class="comma2 letter">,</span> <br>
+            <span class="W letter">W</span>
+            <span class="e2 letter">e</span>
+            <span class="b letter" style="padding-right: 30px;">b</span>
+            <span class="D letter">D</span>
+            <span class="e3 letter">e</span>
+            <span class="v letter">v</span>
+            <span class="e4 letter">e</span>
+            <span class="l3 letter">l</span>
+            <span class="o3 letter">o</span>
+            <span class="p letter">p</span>
+            <span class="e5 letter">e</span>
+            <span class="r letter">r</span>
+            <span class="dot letter">.</span>
+            <div class="borderBottom"></div>
+        </div>
+    </section>
+    <div class="mainDiv">
+        <div class="projects">PROJECTS</div>
+        <div class="projectsLinks">
+        </div>
+    </div>
+    <div class="icon">
+        <div class="arrow1 arrow"></div>
+        <div class="arrow2 arrow"></div>
+        <div class="arrow3 arrow"></div>
+      </div>
+</body>
+</html>
